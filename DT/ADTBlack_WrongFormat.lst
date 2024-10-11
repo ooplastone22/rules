@@ -1,0 +1,22 @@
+07-22 16:04:40.355  1545  6242 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+07-22 16:04:40.465  5192  6257 E BtGatt.ContextMap: Context not found for ID 5
+07-22 16:04:40.475  1545  6242 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+07-22 16:04:40.526     0     0 E KERNEL  : [ 8366.204845][ T1550] BATTERY_CHG: soc_remapping: [BAT][CHG]soc_remapping, SOC= 76, raw_soc = 7500, remap_soc = 7554, media_soc = 0
+07-22 16:04:40.526     0     0 I KERNEL  : [ 8366.207920][ T1550] [BAT][CHG]set_qc_stat: status: 2, switch: 0, g_vbus_plug=0
+07-22 16:04:40.528  2746  5753 I BatteryService: lv: 76, st: 3, st_ex: 3, h: 2, plug: 0, chg_lmt: 0, asus_c: 0, s: 0, ab: 0, wlma: 0, fwstate: 2, fwVer: 261
+07-22 16:04:40.529  4011  4601 V PowerSaverClient: onReceive(android.intent.action.BATTERY_CHANGED)
+07-22 16:04:40.529  4011 27972 V Battery : scale=100, level=76, status=3(3), plugged=0, health=2, asusCharger=0, isWirelessMisalignment=false
+07-22 16:04:40.529  4011  4601 V PowerSaverClient: scheduled charging
+07-22 16:04:40.530  4011  4011 D PowerUI : setSystemProperties(): key = vendor.asus.dis_flash_light, val = 0
+07-22 16:04:40.530  2746  5753 I BatteryService: lv: 76, st: 3, st_ex: 3, h: 2, plug: 0, chg_lmt: 0, asus_c: 0, s: 0, ab: 0, wlma: 0, fwstate: 2, fwVer: 261
+07-22 16:04:40.530     0     0 E KERNEL  : [ 8366.208508][T26296] BATTERY_CHG: handle_notification: [adsp] evtlog= +++dc_get_power_supply_properties, prop_id=0
+07-22 16:04:40.530     0     0 E KERNEL  : [ 8366.208568][T26296] BATTERY_CHG: handle_notification: [adsp] evtlog= [scpqchg2s] +++battmngr_plat_scpqchg2s_extfg_r1_get_dc_power_supply_properties
+07-22 16:04:40.530     0     0 E KERNEL  : [ 8366.208638][T26296] BATTERY_CHG: handle_notification: [adsp] evtlog= [scpqchg2s] ---battmngr_plat_scpqchg2s_extfg_r1_get_dc_power_supply_properties, prop_id=0, val=0
+07-22 16:04:40.530     0     0 E KERNEL  : [ 8366.208716][T26296] BATTERY_CHG: handle_notification: [adsp] evtlog= ---dc_get_power_supply_properties, prop_id=0, val=0
+07-22 16:04:40.530     0     0 E KERNEL  : [ 8366.208792][ T1550] BATTERY_CHG: wls_psy_get_prop: prop_id[0]=0
+07-22 16:04:40.530     0     0 E KERNEL  : [ 8366.209283][ T1550] BATTERY_CHG: usb_psy_get_prop: prop_id[0]=0
+07-22 16:04:40.530     0     0 W KERNEL  : [ 8366.209355][ T1550] healthd: battery l=76 v=8247 t=36.9 h=2 st=3 c=-321000 fc=5496000 cc=10 chg=
+07-22 16:04:40.530     0     0 I KERNEL  : [ 8366.210721][ T1550] [BAT][CHG]set_qc_stat: status: 2, switch: 0, g_vbus_plug=0
+07-22 16:04:40.530     0     0 E KERNEL  : [ 8366.211330][T26296] BATTERY_CHG: handle_notification: [adsp] evtlog= +++dc_get_power_supply_properties, prop_id=0
+07-22 16:04:40.530     0     0 E KERNEL  : [ 8366.211384][T26296] BATTERY_CHG: handle_notification: [adsp] evtlog= [scpqchg2s] +++battmngr_plat_scpqchg2s_extfg_r1_get_dc_power_supply_properties
+07-22 16:04:40.530     0     0 E KERNEL  : [ 8366.211451][T26296] BATTERY_CHG: handle_notification: [adsp] evtlog= [scpqchg2s] ---battmngr_plat_scpqchg2s_extfg_r1_get_dc_power_supply_properties, prop_id=0, val=0
